@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:hng_cv_app/experience.dart';
 import 'package:hng_cv_app/profileText.dart';
 import 'package:hng_cv_app/upperSection.dart';
 
@@ -17,11 +18,14 @@ class body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           upperSectionImageAndEdit(size: size),
-          profileText(),
+          const profileText(),
+           const experience(),
         ],
       ),
     );
   }
 }
+
+
 
 

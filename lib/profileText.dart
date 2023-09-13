@@ -8,7 +8,7 @@ class profileText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SizedBox(
-      height: 500,
+      height: 220,
       child: Stack(
         children: [
           Positioned( //intro text - remember to link github to hyperlink to github repo
