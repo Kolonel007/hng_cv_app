@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hng_cv_app/edit_screen.dart';
 
 
 class upperSectionImageAndEdit extends StatelessWidget {
@@ -24,7 +25,7 @@ class upperSectionImageAndEdit extends StatelessWidget {
             ),
     
             Positioned( //image container
-        top:80,
+        top:45,
         left:15,  
         child: Container(
           height: 120 ,
@@ -42,10 +43,10 @@ class upperSectionImageAndEdit extends StatelessWidget {
         )),
     
         Positioned( //editCV button
-        top:130,
+        top:108,
         right:20, 
         child:  FilledButton(
-          onPressed:(){},
+          onPressed:(){Navigator.of(context).push(MaterialPageRoute(builder: (context) => const EditScreen()));},
           style: FilledButton.styleFrom(
             backgroundColor:Colors.blueAccent, 
             side: const BorderSide(width: 2, color: Colors.white)
