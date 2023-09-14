@@ -58,7 +58,7 @@ class experience extends StatelessWidget {
               children: [
               Flexible(child: Text("Amazon Prime", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -81,7 +81,7 @@ class experience extends StatelessWidget {
               children: [
               Flexible(child: Text("Squarebox Inc", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -104,7 +104,7 @@ class experience extends StatelessWidget {
               children: [
               Flexible(child: Text("Pied Piper Llc.", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -127,7 +127,7 @@ class experience extends StatelessWidget {
               children: [
               Flexible(child: Text("HNGx", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),

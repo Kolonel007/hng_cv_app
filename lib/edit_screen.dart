@@ -1,5 +1,7 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
-import 'package:hng_cv_app/home_screen.dart';
+import 'package:hng_cv_app/edit_body.dart';
 import 'package:hng_cv_app/main.dart';
 
 
@@ -12,8 +14,10 @@ class EditScreen extends StatefulWidget {
 }
 
 class _EditScreenState extends State<EditScreen> {
+  
   @override
   Widget build(BuildContext context) {
+    // Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         elevation: 20,
@@ -28,8 +32,8 @@ class _EditScreenState extends State<EditScreen> {
         //   onPressed: () {  },)
         // ],
       ),
-      body: Column(children: [
-        Container(),
-   ],) );
+      body: editScreenBody() 
+      );
   }
 }
+

@@ -58,7 +58,7 @@ class skills extends StatelessWidget {
               children: [
               Flexible(child: Text("Dart - Flutter Framework", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -81,7 +81,7 @@ class skills extends StatelessWidget {
               children: [
               Flexible(child: Text("Firebase Integration", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -102,9 +102,9 @@ class skills extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-              Flexible(child: Text("iOS/Android - Cross Platform management", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
+              Flexible(child: Text("iOS/Android Development", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
@@ -127,7 +127,7 @@ class skills extends StatelessWidget {
               children: [
               Flexible(child: Text("CI/CD", style: TextStyle(fontSize: 15.0,fontWeight: FontWeight.bold),)),
               SizedBox(
-                width: 330,
+                width: 270,
                 child: Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
                 style: TextStyle(fontSize: 10.0),),
               ),
